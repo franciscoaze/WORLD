@@ -161,7 +161,7 @@ class World:
             self.pop.aging(1)
 
             print('===Cycle nr. ' + str(self.nr_cycle) + '===')
-            # Mechnism 1 - Finding a partner
+            # Mechanism 1 - Finding a partner
             self.pop.socialize()
 
             # Mechanism 2 - Population growth
